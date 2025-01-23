@@ -1,0 +1,44 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven {
+            url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
+            credentials {
+                username = "mapbox" // Este usuario es fijo
+                password = providers.gradleProperty("MAPBOX_DOWNLOADS_TOKEN").get()
+            }
+            authentication {
+                basic(BasicAuthentication)
+            }
+        }
+        maven {
+            url = uri("https://jitpack.io")
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
+            credentials {
+                username = "mapbox" // Este usuario es fijo
+                password = "sk.eyJ1IjoiYWxiZXJ0b3Byb3llY3RzIiwiYSI6ImNtMnRvaTd2dTA1N3Uyd3EwZW1lNnhtNWEifQ.YE8JUd_gX3rZNawnTRaOdQ"
+            }
+            authentication {
+                basic(BasicAuthentication)
+            }
+        }
+        maven {
+            url = uri("https://jitpack.io")
+        }
+    }
+}
+
+
+rootProject.name = "Android"
+include ':app'

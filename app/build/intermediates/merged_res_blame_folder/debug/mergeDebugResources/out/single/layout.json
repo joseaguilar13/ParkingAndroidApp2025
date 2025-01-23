@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\daemon\\8.10\\com.navix.mapboxvainilla.app-mergeDebugResources-3:\\layout\\activity_driver_interface.xml",
+        "source": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\daemon\\8.10\\com.navix.mapboxvainilla.app-main-6:\\layout\\activity_driver_interface.xml"
+    },
+    {
+        "merged": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\daemon\\8.10\\com.navix.mapboxvainilla.app-mergeDebugResources-3:\\layout\\form.xml",
+        "source": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\daemon\\8.10\\com.navix.mapboxvainilla.app-main-6:\\layout\\form.xml"
+    },
+    {
+        "merged": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\daemon\\8.10\\com.navix.mapboxvainilla.app-mergeDebugResources-3:\\layout\\message.xml",
+        "source": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\daemon\\8.10\\com.navix.mapboxvainilla.app-main-6:\\layout\\message.xml"
+    },
+    {
+        "merged": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\daemon\\8.10\\com.navix.mapboxvainilla.app-mergeDebugResources-3:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\daemon\\8.10\\com.navix.mapboxvainilla.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\daemon\\8.10\\com.navix.mapboxvainilla.app-mergeDebugResources-3:\\layout\\menu.xml",
+        "source": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\daemon\\8.10\\com.navix.mapboxvainilla.app-main-6:\\layout\\menu.xml"
+    },
+    {
+        "merged": "com.navix.mapboxvainilla.app-mergeDebugResources-3:/layout/form.xml",
+        "source": "com.navix.mapboxvainilla.app-main-6:/layout/form.xml"
+    }
+]

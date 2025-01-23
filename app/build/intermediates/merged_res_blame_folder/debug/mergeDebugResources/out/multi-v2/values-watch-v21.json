@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.navix.mapboxvainilla.app-mergeDebugResources-2:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\caches\\8.10\\transforms\\d70586b99ef7f365bbb52d70cb95e67d\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

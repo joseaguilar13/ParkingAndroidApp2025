@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Parking Lot App"
+        android:textColor="#2196F3"
+        android:textSize="28sp"
+        android:elevation="4dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login_in_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_name"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/login"
+        android:textColor="#1976D2"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/edit_texts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_in_text"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="48dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:id="@+id/user_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/user_pass_hint"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:background="@drawable/edit_text_background"
+                android:textColor="@android:color/black"
+                android:textColorHint="#757575" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:id="@+id/user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/user_email_hint"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:background="@drawable/edit_text_background"
+                android:textColor="@android:color/black"
+                android:textColorHint="#757575" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:id="@+id/date_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Set starting date"
+                android:inputType="datetime"
+                android:padding="12dp"
+                android:background="@drawable/edit_text_background"
+                android:textColor="@android:color/black"
+                android:textColorHint="#757575" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:id="@+id/date_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Set ending date"
+                android:inputType="datetime"
+                android:padding="12dp"
+                android:background="@drawable/edit_text_background"
+                android:textColor="@android:color/black"
+                android:textColorHint="#757575" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:id="@+id/date_view3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Set ending date"
+                android:inputType="datetime"
+                android:padding="12dp"
+                android:background="@drawable/edit_text_background"
+                android:textColor="@android:color/black"
+                android:textColorHint="#757575" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Tabla de cálculo de costos -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parking Cost Calculation"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:background="#2196F3"
+                    android:padding="12dp"
+                    android:gravity="center"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="*">
+
+                    <TableRow android:background="#2196F3">
+                        <TextView
+                            android:text="Days Parked"
+                            android:textColor="#FFFFFF"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:text="Cost per Day"
+                            android:textColor="#FFFFFF"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:text="Total Cost"
+                            android:textColor="#FFFFFF"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+                    </TableRow>
+
+                    <TableRow android:background="#E3F2FD">
+                        <TextView
+                            android:id="@+id/tv_days_parking_value"
+                            android:text="9"
+                            android:padding="10dp"
+                            android:gravity="center"/>
+                        <TextView
+                            android:id="@+id/tv_cost_per_day_value"
+                            android:text="$10"
+                            android:padding="10dp"
+                            android:gravity="center"/>
+                        <TextView
+                            android:id="@+id/tv_total_cost_value"
+                            android:text="$90"
+                            android:padding="10dp"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow android:background="#1976D2">
+                        <TextView
+                            android:text="Total to Pay"
+                            android:textColor="#FFFFFF"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:layout_span="2"/>
+                        <TextView
+                            android:id="@+id/tv_total_to_pay_value"
+                            android:text="$90"
+                            android:textColor="#FFFFFF"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_login"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_texts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/login"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:cornerRadius="24dp"
+        android:backgroundTint="#2196F3"/>
+
+    <TextView
+        android:id="@+id/create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/dont_have_acc"
+        android:textAlignment="center"
+        android:textColor="#1976D2" />
+
+    <LinearLayout
+        android:id="@+id/or_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/create_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="14dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#BDBDBD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="or continue with"
+            android:textColor="#757575"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="14dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#BDBDBD" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/social_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_below="@id/or_text"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <ImageButton
+                android:id="@+id/fb_login"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="12dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icons8_gmail_48" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <ImageButton
+                android:id="@+id/google_login"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="12dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icons8_facebook_50__1_" />
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <!-- Botones de navegación -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBooking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Booking"
+                android:layout_margin="4dp"
+                android:backgroundTint="#4CAF50"
+                app:cornerRadius="8dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:layout_margin="4dp"
+                android:backgroundTint="#2196F3"
+                app:cornerRadius="8dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:layout_margin="4dp"
+                android:backgroundTint="#2196F3"
+                app:cornerRadius="8dp"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

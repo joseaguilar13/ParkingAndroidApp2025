@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MapBox</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="mapbox_access_token" translatable="false" tools:ignore="UnusedResources">sk.eyJ1IjoiYWxiZXJ0b3Byb3llY3RzIiwiYSI6ImNtMnRvaTd2dTA1N3Uyd3EwZW1lNnhtNWEifQ.YE8JUd_gX3rZNawnTRaOdQ</string>
+    <string name="dont_have_acc">Create one</string>
+    <string name="user_pass_hint">Full name</string>
+    <string name="user_email_hint">E-mail</string>
+    <string name="login">Book selected parking slot</string>
+
+</resources>

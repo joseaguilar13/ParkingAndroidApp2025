@@ -152,6 +152,7 @@ class MainActivity :
     fun close(view: View){
 
         // Toast.makeText(context, "Close", Toast.LENGTH_LONG).show()
+        // Test commit
         //binding.mapView.annotations.cleanup()
         val viewAnnotationManager = binding.mapView.viewAnnotationManager
         val viewAnnotation = viewAnnotationManager.removeAllViewAnnotations()

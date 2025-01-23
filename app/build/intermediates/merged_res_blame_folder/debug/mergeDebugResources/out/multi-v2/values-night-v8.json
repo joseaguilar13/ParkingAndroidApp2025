@@ -21,14 +21,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\josea\\OneDrive\\Escritorio\\Mapbox\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\josea\\Downloads\\Parking2025\\ParkingAndroidApp2025\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
+                        "startOffsets": "102",
                         "endLines": "14",
                         "endColumns": "12",
-                        "endOffsets": "796"
+                        "endOffsets": "810"
                     },
                     "to": {
                         "startLines": "2",

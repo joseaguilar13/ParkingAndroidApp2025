@@ -9,66 +9,66 @@
 9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-11-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:5:5-79
-11-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:5:22-76
+11-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:5:22-76
 12    <!-- Include this permission to grab user's general location -->
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:7:5-81
-13-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:7:22-78
+13-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:7:22-78
 14    <!-- Include only if your app benefits from precise location access. -->
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:9:5-79
-15-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:9:22-76
+15-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:9:22-76
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:10:5-67
-16-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:10:22-64
+16-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:10:22-64
 17    <uses-permission android:name="android.permission.WAKE_LOCK" />
-17-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:12:5-68
-17-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:12:22-65
+17-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:12:5-68
+17-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:12:22-65
 18    <uses-permission android:name="android.permission.VIBRATE" />
-18-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:13:5-66
-18-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:13:22-63
+18-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:13:5-66
+18-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:13:22-63
 19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-19-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:14:5-81
-19-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:14:22-78
+19-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:14:5-81
+19-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:14:22-78
 20    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-20-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:15:5-71
-20-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:15:22-68
+20-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:15:5-71
+20-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:15:22-68
 21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-21-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:16:5-82
-21-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:16:22-79
+21-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:16:5-82
+21-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:16:22-79
 22    <uses-permission android:name="android.permission.CALL_PHONE" />
-22-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:17:5-69
-22-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:17:22-66
+22-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:17:5-69
+22-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:17:22-66
 23    <uses-permission android:name="android.permission.CAMERA" />
-23-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:18:5-65
-23-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:18:22-62
+23-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:18:5-65
+23-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:18:22-62
 24    <uses-permission android:name="android.permission.BLUETOOTH" />
-24-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:19:5-68
-24-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:19:22-65
+24-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:19:5-68
+24-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:19:22-65
 25    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-25-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:20:5-74
-25-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:20:22-71
+25-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:20:5-74
+25-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:20:22-71
 26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-26-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:21:5-80
-26-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:21:22-77
+26-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:21:5-80
+26-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:21:22-77
 27
 28    <uses-feature android:name="android.hardware.camera" />
-28-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:23:5-60
-28-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:23:19-57
+28-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:23:5-60
+28-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:23:19-57
 29    <uses-feature android:name="android.hardware.camera.autofocus" />
-29-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:24:5-70
-29-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:24:19-67
+29-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:24:5-70
+29-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:24:19-67
 30    <uses-feature
-30-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:25:5-27:36
+30-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:25:5-27:36
 31        android:name="android.hardware.telephony"
-31-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:26:9-50
+31-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:26:9-50
 32        android:required="false" />
-32-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:27:9-33
+32-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:27:9-33
 33
 34    <uses-permission-sdk-23 android:name="android.permission.CALL_PHONE" />
-34-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:29:5-76
-34-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:29:29-73
+34-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:29:5-76
+34-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:29:29-73
 35
 36    <uses-feature
 36-->[com.mapbox.maps:android-core:11.7.1] C:\Users\josea\.gradle\caches\8.10\transforms\df1130cea6f709b638dd6c0d8bf2315a\transformed\android-core-11.7.1\AndroidManifest.xml:10:5-12:35
@@ -99,60 +99,60 @@
 49-->[androidx.core:core:1.13.0] C:\Users\josea\.gradle\caches\8.10\transforms\9b811734bf795ffb5262aa288de756da\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 50
 51    <application
-51-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:31:5-59:19
+51-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:31:5-59:19
 52        android:name="com.navix.mapboxvainilla.ui.view.MapBoxVainilla"
-52-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:32:9-47
+52-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:32:9-47
 53        android:allowBackup="true"
-53-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:34:9-35
+53-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:34:9-35
 54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 54-->[androidx.core:core:1.13.0] C:\Users\josea\.gradle\caches\8.10\transforms\9b811734bf795ffb5262aa288de756da\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 55        android:dataExtractionRules="@xml/data_extraction_rules"
-55-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:35:9-65
+55-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:35:9-65
 56        android:debuggable="true"
 57        android:extractNativeLibs="false"
 58        android:fullBackupContent="@xml/backup_rules"
-58-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:36:9-54
+58-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:36:9-54
 59        android:icon="@mipmap/ic_launcher"
-59-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:37:9-43
+59-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:37:9-43
 60        android:label="@string/app_name"
-60-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:38:9-41
+60-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:38:9-41
 61        android:roundIcon="@mipmap/ic_launcher_round"
-61-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:39:9-54
+61-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:39:9-54
 62        android:supportsRtl="true"
-62-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:40:9-35
+62-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:40:9-35
 63        android:testOnly="true"
 64        android:theme="@style/Theme.Android"
-64-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:41:9-45
+64-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:41:9-45
 65        android:usesCleartextTraffic="true" >
-65-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:33:9-44
+65-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:33:9-44
 66        <activity
-66-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:44:9-56:20
+66-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:44:9-56:20
 67            android:name="com.navix.mapboxvainilla.ui.view.MainActivity"
-67-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:45:13-49
+67-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:45:13-49
 68            android:exported="true"
-68-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:46:13-36
+68-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:46:13-36
 69            android:label="@string/title_activity_main"
-69-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:47:13-56
+69-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:47:13-56
 70            android:screenOrientation="portrait"
-70-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:50:13-49
+70-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:50:13-49
 71            android:theme="@style/Theme.AppCompat.NoActionBar"
-71-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:48:13-63
+71-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:48:13-63
 72            android:windowSoftInputMode="adjustResize" >
-72-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:49:13-55
+72-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:49:13-55
 73            <intent-filter>
-73-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:52:13-55:29
+73-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:52:13-55:29
 74                <action android:name="android.intent.action.MAIN" />
-74-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:53:17-69
-74-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:53:25-66
+74-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:53:17-69
+74-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:53:25-66
 75
 76                <category android:name="android.intent.category.LAUNCHER" />
-76-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:54:17-77
-76-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:54:27-74
+76-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:54:17-77
+76-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:54:27-74
 77            </intent-filter>
 78        </activity>
 79        <activity android:name="com.navix.mapboxvainilla.Activity2" />
-79-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:57:9-47
-79-->C:\Users\josea\OneDrive\Escritorio\Mapbox\app\src\main\AndroidManifest.xml:57:19-44
+79-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:57:9-47
+79-->C:\Users\josea\Downloads\Parking2025\ParkingAndroidApp2025\app\src\main\AndroidManifest.xml:57:19-44
 80
 81        <profileable android:shell="true" />
 81-->[com.mapbox.maps:android-core:11.7.1] C:\Users\josea\.gradle\caches\8.10\transforms\df1130cea6f709b638dd6c0d8bf2315a\transformed\android-core-11.7.1\AndroidManifest.xml:22:9-45

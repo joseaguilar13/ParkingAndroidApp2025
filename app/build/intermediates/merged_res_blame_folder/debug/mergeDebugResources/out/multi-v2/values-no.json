@@ -1,44 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.navix.mapboxvainilla.app-mergeDebugResources-2:/values-no/values-no.xml",
+            "outputFile": "com.navix.mapboxvainilla.app-mergeDebugResources-38:/values-no/values-no.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\caches\\8.10\\transforms\\10091841585bb3c423289de410977ffc\\transformed\\maps-logo-11.7.1\\res\\values-no\\values-no.xml",
+                    "source": "C:\\Users\\josea\\.gradle\\caches\\8.10\\transforms\\ef426ee71c27753ee6f2001a6eedb553\\transformed\\maps-compass-11.7.1\\res\\values-no\\values-no.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "192",
-                        "endOffsets": "243"
+                        "endColumns": "127",
+                        "endOffsets": "178"
                     },
                     "to": {
-                        "startLines": "14",
+                        "startLines": "9",
                         "startColumns": "4",
-                        "startOffsets": "1301",
-                        "endColumns": "192",
-                        "endOffsets": "1489"
+                        "startOffsets": "727",
+                        "endColumns": "127",
+                        "endOffsets": "850"
                     }
                 },
                 {
-                    "source": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\caches\\8.10\\transforms\\0904de4b404224edf42f008c1c5395b2\\transformed\\android-11.7.1\\res\\values-no\\values-no.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,132,209",
-                        "endColumns": "76,76,69",
-                        "endOffsets": "127,204,274"
-                    },
-                    "to": {
-                        "startLines": "10,11,12",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "855,932,1009",
-                        "endColumns": "76,76,69",
-                        "endOffsets": "927,1004,1074"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\caches\\8.10\\transforms\\3d188b1d5ab967d4f3e593a9b25d9dc5\\transformed\\maps-attribution-11.7.1\\res\\values-no\\values-no.xml",
+                    "source": "C:\\Users\\josea\\.gradle\\caches\\8.10\\transforms\\3d188b1d5ab967d4f3e593a9b25d9dc5\\transformed\\maps-attribution-11.7.1\\res\\values-no\\values-no.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -55,20 +38,37 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\josea\\Downloads\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\joseaguilar13-meeplab-navix-android-mapbox-00330dbc3839\\Mapbox\\.gradle\\caches\\8.10\\transforms\\ef426ee71c27753ee6f2001a6eedb553\\transformed\\maps-compass-11.7.1\\res\\values-no\\values-no.xml",
+                    "source": "C:\\Users\\josea\\.gradle\\caches\\8.10\\transforms\\0904de4b404224edf42f008c1c5395b2\\transformed\\android-11.7.1\\res\\values-no\\values-no.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,132,209",
+                        "endColumns": "76,76,69",
+                        "endOffsets": "127,204,274"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "855,932,1009",
+                        "endColumns": "76,76,69",
+                        "endOffsets": "927,1004,1074"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\josea\\.gradle\\caches\\8.10\\transforms\\10091841585bb3c423289de410977ffc\\transformed\\maps-logo-11.7.1\\res\\values-no\\values-no.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "127",
-                        "endOffsets": "178"
+                        "endColumns": "192",
+                        "endOffsets": "243"
                     },
                     "to": {
-                        "startLines": "9",
+                        "startLines": "14",
                         "startColumns": "4",
-                        "startOffsets": "727",
-                        "endColumns": "127",
-                        "endOffsets": "850"
+                        "startOffsets": "1301",
+                        "endColumns": "192",
+                        "endOffsets": "1489"
                     }
                 }
             ]

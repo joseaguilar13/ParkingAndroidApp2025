@@ -158,9 +158,10 @@ class MainActivity :
 
     }
 
-    fun clicke2(view: View){
+    fun clicke2(view: View) {
 
         //Toast.makeText(context, "Ohmain2", Toast.LENGTH_LONG).show()
+        //Comment to test git
 
         val Intent = Intent(this, Activity2::class.java)
         Intent.putExtra("no", labelGlobal)
